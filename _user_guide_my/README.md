@@ -1,5 +1,4 @@
 ## Developer İsmail AKBUDAK
-
 Power of CodeIgniter
 
 ## Lisans
