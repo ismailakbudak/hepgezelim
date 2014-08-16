@@ -39,4 +39,29 @@ admin_hepgez/admin/p_scripts                    base_url kontrol et
 admin_hepgez/index.html                         ana dizin yönlendirmesi
 
 
+Ruby on Rails multilingual web site
+========
 
+##Kurulum için:
++ depoyu kopyalayın.
++ `npm install` komutunu çalıştırın.
++ `node app.js` komutunu çalıştırın.
+
+##Çalıştırmak için:
++ aktiviteleri görmek için tarayıcınızdan `http://localhost:3000/activities` adresine girin.
++ yeni aktivite eklemek için tarayıcınızdan `http://localhost:3000/activity?activity=deneme` adresine girin.
+
+##Örneğin can alıcı noktası:
+
+```js
+var activities = [];
+
+exports.index = function(req, res) {
+    res.render('index.jade', { activities: activities });
+};
+
+exports.activity = function(req, res) {
+    activities.push(req.query.activity);
+    res.send('OK');
+};
+```
