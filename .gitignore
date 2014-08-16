@@ -1,4 +1,7 @@
 
+# Bu sayfada her seferinde push edilmek istenmeyen veriler yer alır
+# Log dosyaları lokalde kalamsı uygun olan dosyalar gibi
+
 # ignore the captcha images
 /seyahat/captcha
 /seyahat/cars
