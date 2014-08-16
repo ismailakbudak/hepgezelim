@@ -5,7 +5,13 @@ Power of CodeIgniter
 Copyright (c) 2013-2014 Ismail AKBUDAK
  
 ## Demo
-`www.hepgezelim.com`
+http:/www.hepgezelim.com
+
+## Veritabanı scripti
++ `_user_quide_my/hepgez_hepgezelim (1).sql` bu scripti veritabanında çalıştır
++  `hepgez` isimli kullanıcı oluştur
++  `1234` kullanıcı şifresi  
++  `hepgez_hepgezelim` veritabanı ismi
 
 ## Bilgi 
 + `t_`  test dosyasını simgeler dosya sunucuya atıldığında pasif olmalıdır
