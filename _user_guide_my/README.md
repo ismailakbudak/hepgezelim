@@ -6,62 +6,37 @@ Power of CodeIgniter
 Copyright (c) 2013-2014 Ismail AKBUDAK
  
 ## DEMO
-www.hepgezelim.com
+`www.hepgezelim.com`
 
 ## Bilgi 
-t_   test dosyasını simgeler dosya sunucuya atıldığında pasif olmalıdır
-p_   production dosyasını simgeler dosya sunucuya atıldığında aktif olmalı
++ t_   test dosyasını simgeler dosya sunucuya atıldığında pasif olmalıdır
++ p_   production dosyasını simgeler dosya sunucuya atıldığında aktif olmalı
 
 ## Uygulama  Ayarları
 ------------------------------------------------------- 
-file_application/config/config.php      base_url değiştir					
-file_application/config/database.php    veritabanı ayarları kontrol et 		 
-file_application/p_errors               base_url kontrol et 				
-file_system/libraries/Email.php         Email ayarları
-seyahat/index.php                       environment değiştir				
-seyahat/p_styles                        base_url kontrol et 				
-seyahat/p_scripts                       base_url kontrol et 				  
-seyahat/cars                            Yazılabilir dosya olmalı
-seyahat/captcha                         dosyasının içini boşalt
-seyahat/assets                          Yazılabilir dosya olmalı
-index.html                              ana dizin yönlendirmesi 			
++ `file_application/config/config.php`      base_url değiştir					
++ `file_application/config/database.php`    veritabanı ayarları kontrol et 		 
++ `file_application/p_errors`               base_url kontrol et 				
++ `file_system/libraries/Email.php`         Email ayarları
++ `seyahat/index.php`                       environment değiştir				
++ `seyahat/p_styles`                        base_url kontrol et 				
++ `seyahat/p_scripts`                       base_url kontrol et 				  
++ `seyahat/cars`                            Yazılabilir dosya olmalı
++ `seyahat/captcha`                         dosyasının içini boşalt
++ `seyahat/assets`                          Yazılabilir dosya olmalı
++ `index.html`                              ana dizin yönlendirmesi 			
 
 ## admin_hepgez ayarları
 --------------------------------------------------------
-admin_hepgez/admin_app/config/config.php        base_url değiştir					                                        
-admin_hepgez/admin_app/config/database.php      veritabanı ayarları kontrol et                                          
-admin_hepgez/admin_app/p_errors                 base_url kontrol et 		                                      
-admin_hepgez/admin_sys/helper/url_helper        get_path metodunu düzenle
-admin_hepgez/admin_sys/libraries/Email.php      Email ayarları
-admin_hepgez/admin/index.php                    environment değiştir		                                       
-admin_hepgez/admin/p_styles                     base_url kontrol et 		                                      
-admin_hepgez/admin/p_scripts                    base_url kontrol et 		                                       
-admin_hepgez/index.html                         ana dizin yönlendirmesi
++ `admin_hepgez/admin_app/config/config.php`        base_url değiştir					                                        
++ `admin_hepgez/admin_app/config/database.php`      veritabanı ayarları kontrol et             
++ `admin_hepgez/admin_app/p_errors`                 base_url kontrol et 		                                      
++ `admin_hepgez/admin_sys/helper/url_helper`        get_path metodunu düzenle
++ `admin_hepgez/admin_sys/libraries/Email.php`      Email ayarları
++ `admin_hepgez/admin/index.php`                    environment değiştir		                                       
++ `admin_hepgez/admin/p_styles`                     base_url kontrol et 		                                      
++ `admin_hepgez/admin/p_scripts`                    base_url kontrol et 		                                       
++ `admin_hepgez/index.html`                         ana dizin yönlendirmesi
 
 
-Ruby on Rails multilingual web site
-========
-
-##Kurulum için:
-+ depoyu kopyalayın.
-+ `npm install` komutunu çalıştırın.
-+ `node app.js` komutunu çalıştırın.
-
-##Çalıştırmak için:
-+ aktiviteleri görmek için tarayıcınızdan `http://localhost:3000/activities` adresine girin.
-+ yeni aktivite eklemek için tarayıcınızdan `http://localhost:3000/activity?activity=deneme` adresine girin.
-
-##Örneğin can alıcı noktası:
-
-```js
-var activities = [];
-
-exports.index = function(req, res) {
-    res.render('index.jade', { activities: activities });
-};
-
-exports.activity = function(req, res) {
-    activities.push(req.query.activity);
-    res.send('OK');
-};
-```
+ 
