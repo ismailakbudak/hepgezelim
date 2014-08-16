@@ -2,15 +2,15 @@
 
 Power of CodeIgniter
 
-## License
+## Lisans
 Copyright (c) 2013-2014 Ismail AKBUDAK
  
-## DEMO
+## Demo
 `www.hepgezelim.com`
 
 ## Bilgi 
-+ t_   test dosyasını simgeler dosya sunucuya atıldığında pasif olmalıdır
-+ p_   production dosyasını simgeler dosya sunucuya atıldığında aktif olmalı
++ `t_`  test dosyasını simgeler dosya sunucuya atıldığında pasif olmalıdır
++ `p_`   production dosyasını simgeler dosya sunucuya atıldığında aktif olmalı
 
 ## Uygulama  Ayarları
 ------------------------------------------------------- 
