@@ -1,3 +1,5 @@
 
 # ignore the captcha images
 /seyahat/captcha
+/seyahat/cars
+/seyahat/assets
