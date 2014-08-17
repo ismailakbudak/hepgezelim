@@ -26,7 +26,7 @@
 
 ##Uygulama Özellikleri
 - Uygulama Türkçe ve İngilizce olarak hizmet veriyor.
-- Ayrıca ülkemiz turizm bölgesi olduğu için turistlere de hizmet vermek amacıyla yeni dil dosyaları eklenerek başka dillerde hizmet kolayca verilebilir.
+- Ayrıca ülkemiz turizm bölgesi olduğu için turistlere de hizmet vermek amacıyla sisteme yeni dil dosyaları eklenerek başka dillerde hizmet kolayca verilebilir.
 - Uygulama web ortamında olduğu için platform bağımsızlığına sahiptir
 - Boostrap kullanıldığı için exapandable page özelliğinden dolayı farklı çözünürlükteki cihazlar için uyumludur.
 - Sistemden cep telefonlarına mesaj gönderme yada akıllı telefonlara(Android,IPhone,Windows Phone) uygulamalar yaparak bildirimler ve 
