@@ -18,7 +18,11 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-	define('ENVIRONMENT', 'development');
+ define('ENVIRONMENT', 'development');
+
+ // General application url
+ define('MY_APP_URL', 'http://localhost:8888/hepgezelim/seyahat/');
+
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING

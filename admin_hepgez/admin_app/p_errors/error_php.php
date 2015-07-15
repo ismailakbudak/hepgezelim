@@ -19,7 +19,7 @@
 //////////////////////////////////////////////////
 -->
 <?php
-     $datas['base_url']        = "http://www.hepgezelim.com/admin_hepgez/admin/";
+    $datas['base_url'] =  MY_APP_URL;
 ?>
 <!DOCTYPE html>
 <html lang="tr">
@@ -29,22 +29,7 @@
     <meta name="description" content="Hepgezelim.com boş koltuklarınızı ve masraflarınızı paylaştıran ücretsiz bir servistir. Sitenin amacı  her gün aynı güzergah üzerinde işe giden, sık sık veya ara sıra seyahat eden kişilerin  kendisine yol arkadaşları bulmasını sağlamaktır.   Bu sayede insanlar ucuza seyahet edebilecek, trafikteki araç sayısı azalacak ve araç sahipleri de yol masraflarının belli bir kısmını karşılayabilceklerdir.">
     <meta name="keywords" content="hepgezelim,  hep gezelim , hep gez, hepgez, hep-gezelim, hep-gez, gel gezelim, seyahat paylaş, seyahat paylaşımı,araç paylaş, sürüş paylaş, araç paylaşımı, araba paylaş, arabanı paylaş, seyahatini paylaş, yolculuk et, yolculuk, yol arkadaşı, seyahat arkadaşı, araç arkadaşı, araba arkadaşı, seyahat edelim, seyahat et  ">
     <title> Seyahat Paylaşım Sitesi  </title>
-    <link rel="canonical" href="http://www.hepgezelim.com/">
-    <link rel="alternate" href="http://www.hepgezelim.com/seyahat/tr/" hreflang="tr-TR">
-    <link rel="alternate" href="http://www.hepgezelim.com/seyahat/en/" hreflang="en-UK">
-    <meta name="application-name" content="Hepgezelim">
-    <link rel="icon" type="image/x-icon" href="http://www.hepgezelim.com/seyahat/styles/images/ico.ico">
-    <meta name="copyright" content="@ Copyright Hepgezelim 20013-2014">
-    <meta name="distribution" content="global" />
-    <meta name="author" content="İsmail Akbudak">
-    <meta name="robots" content="all">  
-    <meta property="fb:app_id" content="528537380594210">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://www.hepgezelim.com/">
-    <meta property="og:locale" content="tr">
-    <meta property="og:site_name" content="Hepgezelim.com">
-    <meta property="og:title" content="Seyahat Paylaşım Sitesi">
-    <meta property="og:image" content="http://www.hepgezelim.com/seyahat/styles/images/ico.ico">
+    <link rel="icon" type="image/x-icon" href="<?= MY_APP_URL?>styles/images/ico.ico">
  
 
     <!--   CSS files  

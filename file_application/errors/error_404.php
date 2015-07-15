@@ -57,6 +57,8 @@ p {
 	<div id="container">
 		<h1><?php echo $heading; ?></h1>
 		<?php echo $message; ?>
-	</div>
+
+        <?php echo MY_APP_URL; ?>
+    </div>
 </body>
 </html>

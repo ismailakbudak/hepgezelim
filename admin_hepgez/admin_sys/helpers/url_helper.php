@@ -60,9 +60,7 @@ if ( ! function_exists('get_path'))
 {
 	function get_path($uri = '')
 	{  		   	
-		$uri =  'http://localhost/hep/seyahat/' . $uri;  
-		// $uri =  'http://www.hepgezelim.com/seyahat/' . $uri;
-		
+		$uri =  ROOT_APP_URL . $uri;
 		return $uri;
 	}
 }

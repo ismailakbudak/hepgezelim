@@ -8,40 +8,34 @@ Copyright (c) 2013-2014 Ismail AKBUDAK
 http:/www.hepgezelim.com
 
 ## Veritabanı scripti
-+ `_user_quide_my/hepgez_hepgezelim (1).sql` bu scripti veritabanında çalıştır
-+  `hepgez` isimli kullanıcı oluştur
-+  `1234` kullanıcı şifresi  
-+  `hepgez_hepgezelim` veritabanı ismi
++ `_user_quide_my/hepgez_hepgezelim.sql` database script
 
-## Bilgi 
-+ `t_`  test dosyasını simgeler dosya sunucuya atıldığında pasif olmalıdır
-+ `p_`   production dosyasını simgeler dosya sunucuya atıldığında aktif olmalı
+## Info
++ `t_`  test folders
++ `p_`   production folders
 
-## Uygulama  Ayarları
-------------------------------------------------------- 
-+ `file_application/config/config.php`      base_url değiştir					
-+ `file_application/config/database.php`    veritabanı ayarları kontrol et 		 
-+ `file_application/p_errors`               base_url kontrol et 				
-+ `file_system/libraries/Email.php`         Email ayarları
-+ `seyahat/index.php`                       environment değiştir				
-+ `seyahat/p_styles`                        base_url kontrol et 				
-+ `seyahat/p_scripts`                       base_url kontrol et 				  
-+ `seyahat/cars`                            Yazılabilir dosya olmalı
-+ `seyahat/captcha`                         dosyasının içini boşalt
-+ `seyahat/assets`                          Yazılabilir dosya olmalı
-+ `index.html`                              ana dizin yönlendirmesi 			
+## Application Settings
+-------------------------------------------------------
++ `file_application/config/database.php`    database settings
++ `file_application/p_errors`               production errors, change folder name with errors
++ `file_system/libraries/Email.php`         Email settings
++ `seyahat/index.php`                       change environment, MY_APP_URL
++ `seyahat/p_styles`                        production styles, change this folder name with styles
++ `seyahat/p_scripts`                       production scripts, change this folder name with scripts
++ `seyahat/cars`                            folder must be writeable 777
++ `seyahat/captcha`                         folder must be empty and writeable 777
++ `seyahat/assets`                          folder must be writeable 777
++ `index.html`                              change redirect root url
 
-## admin_hepgez ayarları
+## Admin Settings
 --------------------------------------------------------
-+ `admin_hepgez/admin_app/config/config.php`        base_url değiştir					                                        
-+ `admin_hepgez/admin_app/config/database.php`      veritabanı ayarları kontrol et             
-+ `admin_hepgez/admin_app/p_errors`                 base_url kontrol et 		                                      
-+ `admin_hepgez/admin_sys/helper/url_helper`        get_path metodunu düzenle
-+ `admin_hepgez/admin_sys/libraries/Email.php`      Email ayarları
-+ `admin_hepgez/admin/index.php`                    environment değiştir		                                       
-+ `admin_hepgez/admin/p_styles`                     base_url kontrol et 		                                      
-+ `admin_hepgez/admin/p_scripts`                    base_url kontrol et 		                                       
-+ `admin_hepgez/index.html`                         ana dizin yönlendirmesi
++ `admin_hepgez/admin_app/config/database.php`      database settings
++ `admin_hepgez/admin_app/p_errors`                 production errors, change folder name with errors
++ `admin_hepgez/admin_sys/libraries/Email.php`      Email settings
++ `admin_hepgez/admin/index.php`                    change environment, MY_APP_URL
++ `admin_hepgez/admin/p_styles`                     production styles, change this folder name with styles
++ `admin_hepgez/admin/p_scripts`                    production scripts, change this folder name with scripts
++ `admin_hepgez/index.html`                         change redirect root url
 
 
  

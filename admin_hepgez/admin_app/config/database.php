@@ -50,17 +50,16 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 
-/* site */
+/* production */
 /*
-$db['default']['username'] = 'hepgez_hepgez';      
-$db['default']['password'] = 'z5o!6hIBw-#-';       
-$db['default']['database'] = 'hepgez_hepgezelim';
+$db['default']['username'] = '';
+$db['default']['password'] = '';
+$db['default']['database'] = '';
 */
 
 /* lokal */
-
-$db['default']['username'] = 'hepgez';
-$db['default']['password'] = '1234'; 
+$db['default']['username'] = 'homestead';
+$db['default']['password'] = 'secret';
 $db['default']['database'] = 'hepgez_hepgezelim';
 
 

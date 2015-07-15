@@ -14,8 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	=  'http://localhost/hep/admin_hepgez/admin/'; // 'http://www.hepgezelim.com/admin_hepgez/admin/';   
 
+$config['base_url']	=  MY_APP_URL;
 
 /*
 |--------------------------------------------------------------------------

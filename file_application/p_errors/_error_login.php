@@ -29,21 +29,6 @@
     <meta name="description" content="<?=lang('g.description')?> ">
     <meta name="keywords" content="<?=lang('g.keywords')?>">
     <title> <?=lang('g.title')?> </title>
-    <link rel="canonical" href="http://www.hepgezelim.com/">
-    <link rel="alternate" href="http://www.hepgezelim.com/seyahat/tr/" hreflang="tr-TR">
-    <link rel="alternate" href="http://www.hepgezelim.com/seyahat/en/" hreflang="en-UK">
-    <meta name="application-name" content="Hepgezelim">
-    <meta property="fb:app_id" content="528537380594210">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://www.hepgezelim.com/">
-    <meta property="og:locale" content="<?= lang('g.language') ?>">
-    <meta property="og:site_name" content="Hepgezelim.com">
-    <meta property="og:title" content="<?=lang('g.title')?>">
-    <meta property="og:image" content="<?php echo  base_url() . 'styles/images/ico.ico'  ?>">
-    <meta name="copyright" content="@ Copyright Hepgezelim 20013-2014">
-    <meta name="distribution" content="global" />
-    <meta name="author" content="İsmail Akbudak">
-    <meta name="robots" content="all">  
     <link rel="icon" type="image/x-icon" href="<?php echo  base_url() . 'styles/images/ico.ico'  ?>">
     <link rel="image_src" href="<?php echo  base_url() . 'styles/images/ico.ico'  ?>" />
 
