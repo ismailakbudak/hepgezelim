@@ -22,9 +22,9 @@ http:/www.hepgezelim.com
 + `seyahat/index.php`                       change environment, MY_APP_URL
 + `seyahat/p_styles`                        production styles, change this folder name with styles
 + `seyahat/p_scripts`                       production scripts, change this folder name with scripts
-+ `seyahat/cars`                            folder must be writeable 777
-+ `seyahat/captcha`                         folder must be empty and writeable 777
-+ `seyahat/assets`                          folder must be writeable 777
++ `seyahat/cars`                            folder must be writeable
++ `seyahat/captcha`                         folder must be empty and writeable
++ `seyahat/assets`                          folder must be writeable
 + `index.html`                              change redirect root url
 
 ## Admin Settings
