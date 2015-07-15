@@ -23,7 +23,7 @@
  /**
  * General application url
  */
- define('MY_APP_URL', 'http://localhost:8888/hepgezelim/admin_hepgez/admin/');
+ define('MY_APP_URL', 'http://localhost:8888/hepgezelim/hq/admin/');
  define('ROOT_APP_URL', 'http://localhost:8888/hepgezelim/seyahat/');
 
 /*

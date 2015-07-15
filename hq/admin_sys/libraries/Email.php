@@ -31,9 +31,9 @@ class CI_Email {
 	var	$useragent		= "CodeIgniter";
     var	$mailpath		= "/usr/sbin/sendmail";	    // Sendmail path
     var	$protocol		= "smtp";	                // mail/sendmail/smtp
-    var	$smtp_host		= "smtp.mandrillapp.com";	// SMTP Server.
-    var	$smtp_user		= "yourname";	            // SMTP Username
-    var	$smtp_pass		= "yourpassword";	        // SMTP Password
+    var	$smtp_host		= "smtp.mandrillapp.com";	// SMTP Server.  Example: mail.earthlink.net
+    var	$smtp_user		= "isoakbudak@gmail.com";	// SMTP Username
+    var	$smtp_pass		= "PA73-KCSlPGJ8TM-4WADFg";	// SMTP Password
 	var	$smtp_port		= "587";	                // SMTP Port
 	var	$smtp_timeout	= 10;		// SMTP Timeout in seconds
 	var	$smtp_crypto	= "";		// SMTP Encryption. Can be null, tls or ssl.
