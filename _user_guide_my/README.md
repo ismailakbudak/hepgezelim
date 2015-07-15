@@ -29,13 +29,13 @@ http:/www.hepgezelim.com
 
 ## Admin Settings
 --------------------------------------------------------
-+ `admin_hepgez/admin_app/config/database.php`      database settings
-+ `admin_hepgez/admin_app/p_errors`                 production errors, change folder name with errors
-+ `admin_hepgez/admin_sys/libraries/Email.php`      Email settings
-+ `admin_hepgez/admin/index.php`                    change environment, MY_APP_URL, ROOT_APP_URL
-+ `admin_hepgez/admin/p_styles`                     production styles, change this folder name with styles
-+ `admin_hepgez/admin/p_scripts`                    production scripts, change this folder name with scripts
-+ `admin_hepgez/index.html`                         change redirect root url
++ `hq/admin_app/config/database.php`      database settings
++ `hq/admin_app/p_errors`                 production errors, change folder name with errors
++ `hq/admin_sys/libraries/Email.php`      Email settings
++ `hq/admin/index.php`                    change environment, MY_APP_URL, ROOT_APP_URL
++ `hq/admin/p_styles`                     production styles, change this folder name with styles
++ `hq/admin/p_scripts`                    production scripts, change this folder name with scripts
++ `hq/index.html`                         change redirect root url
 
 
  
