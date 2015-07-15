@@ -19,7 +19,7 @@
 //////////////////////////////////////////////////
 -->
 <?php
-     $datas['base_url']        = "http://www.hepgezelim.com/seyahat/";
+   $datas['base_url'] = "http://www.hepgezelim.com/seyahat/";
 ?>
 <!DOCTYPE html>
 <html lang="tr">
@@ -46,7 +46,6 @@
     <meta property="og:site_name" content="Hepgezelim.com">
     <meta property="og:title" content="Seyahat Paylaşım Sitesi">
     <meta property="og:image" content="http://www.hepgezelim.com/seyahat/styles/images/ico.ico">
- 
 
     <!--   CSS files  
     =====================================-->
