@@ -7,14 +7,8 @@ Power of CodeIgniter
 ## Licence
 Copyright (c) 2013-2014 Ismail AKBUDAK
  
-## Demo
-http:/www.hepgezelim.com
-
 ## Lisans
 Copyright (c) 2013-2014 Ismail AKBUDAK
-
-## Demo
-http:/www.hepgezelim.com
 
 ## Veritabanı scripti
 + `_user_quide_my/hepgez_hepgezelim.sql` database script
